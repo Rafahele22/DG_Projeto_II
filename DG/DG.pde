@@ -21,7 +21,7 @@ void settings() {
 }
 
 void setup() {
-  frameRate(30);
+  frameRate(20);
   canvas = createGraphics(canvasWidth, canvasHeight);
   tx = new Tx(canvasWidth, canvasHeight);
   ecra = new Screen(canvas);
